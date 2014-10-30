@@ -8,3 +8,6 @@ if yes?("Would you like to install Devise?")
   generate("devise:install")
   generate("devise", model_name)
 end
+
+
+rake("db:migrate")
